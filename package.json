@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "text-editor",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
@@ -16,10 +16,20 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "idb": "^7.1.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "nodemon": "^2.0.4",
+    "webpack-pwa-manifest": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajkdh/text.editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajkdh/text.editor/issues"
+  },
+  "homepage": "https://github.com/rajkdh/text.editor#readme"
 }
