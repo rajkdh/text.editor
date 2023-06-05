@@ -7,6 +7,8 @@ const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 
 precacheAndRoute(self.__WB_MANIFEST);
 
+import {StaleWhileRevalidate} from 'workbox-strategies/StaleWhileRevalidate.mjs';
+
 const pageCache = new CacheFirst({
   cacheName: 'page-cache',
   plugins: [
