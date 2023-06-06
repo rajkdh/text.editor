@@ -31,7 +31,7 @@ npm run start
 ```
 
 ## Usage
-Clone this repo.
+Deployed link: https://dashboard.heroku.com/apps/text-editorio/deploy/github
 <br>
 <br>
 ![image](https://github.com/rajkdh/text.editor/assets/112664790/71a64eff-c0e7-49e2-9d50-8d4003158151)
